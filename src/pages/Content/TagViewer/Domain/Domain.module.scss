@@ -1,0 +1,40 @@
+.container {
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  height: 65px;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.active {
+  border: 2px solid green;
+  background-color: #dff0d8;
+}
+
+.blocked {
+  border: 2px solid #9b0000;
+  background-color: #f2dede;
+}
+
+.flag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.domain {
+  width: 20%;
+}
+
+.isActive {
+  width: 10%;
+  color: green
+}
+
+.isNotActive {
+  width: 10%;
+  color: red
+}

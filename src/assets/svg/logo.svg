@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66.88 70.53">
+  <defs>
+    <style>
+      .cls-1{fill:#fff;}.cls-2{clip-path:url(#clip-path);}.cls-3{clip-path:url(#clip-path-2);}.cls-4{clip-path:url(#clip-path-3);}.cls-5{clip-path:url(#clip-path-4);}
+    </style>
+    <clipPath id="clip-path" transform="translate(4.54)">
+      <path class="cls-1"
+            d="M20.73,23.18a8.17,8.17,0,1,1,8.17,8.17,8.17,8.17,0,0,1-8.17-8.17m-10.37,0A18.54,18.54,0,1,0,28.9,4.65,18.54,18.54,0,0,0,10.36,23.18"/>
+    </clipPath>
+    <clipPath id="clip-path-2" transform="translate(4.54)">
+      <path class="cls-1"
+            d="M28.9,48.4A25.19,25.19,0,0,1,7.46,36.46L0,43.92A35.56,35.56,0,0,0,28.9,58.77a35.28,35.28,0,0,0,10-1.43l2.27-.74A35.73,35.73,0,0,0,57.8,43.92l-7.46-7.46A25.2,25.2,0,0,1,28.9,48.4"/>
+    </clipPath>
+    <clipPath id="clip-path-3" transform="translate(4.54)">
+      <rect class="cls-1" x="37.27" y="3.76" width="10.37" height="10.37"
+            transform="translate(6.1 32.64) rotate(-44.99)"/>
+    </clipPath>
+    <clipPath id="clip-path-4" transform="translate(4.54)">
+      <polygon class="cls-1" points="38.02 4.21 47.19 13.31 51.47 9.03 42.23 0 38.02 4.21"/>
+    </clipPath>
+  </defs>
+  <g id="Слой_2" data-name="Слой 2">
+    <g id="Слой_1-2" data-name="Слой 1">
+      <path class="cls-1"
+            d="M20.73,23.18a8.17,8.17,0,1,1,8.17,8.17,8.17,8.17,0,0,1-8.17-8.17m-10.37,0A18.54,18.54,0,1,0,28.9,4.65,18.54,18.54,0,0,0,10.36,23.18"
+            transform="translate(4.54)"/>
+      <g class="cls-2">
+        <rect class="cls-1" x="14.9" y="4.65" width="37.07" height="37.07"/>
+      </g>
+      <path class="cls-1"
+            d="M28.9,48.4A25.19,25.19,0,0,1,7.46,36.46L0,43.92A35.56,35.56,0,0,0,28.9,58.77a35.28,35.28,0,0,0,10-1.43l2.27-.74A35.73,35.73,0,0,0,57.8,43.92l-7.46-7.46A25.2,25.2,0,0,1,28.9,48.4"
+            transform="translate(4.54)"/>
+      <g class="cls-3">
+        <rect class="cls-1" x="11.97" y="17.03" width="33.85" height="61.18"
+              transform="translate(-19.15 65.98) rotate(-77.99)"/>
+      </g>
+      <rect class="cls-1" x="37.27" y="3.76" width="10.37" height="10.37"
+            transform="translate(10.65 32.64) rotate(-44.99)"/>
+      <g class="cls-4">
+        <rect class="cls-1" x="39.66" y="1.61" width="14.67" height="14.67"/>
+      </g>
+      <polygon class="cls-1" points="42.57 4.21 51.73 13.31 56.01 9.03 46.77 0 42.57 4.21"/>
+      <g class="cls-5">
+        <rect class="cls-1" x="42.56" width="13.45" height="13.31"/>
+      </g>
+    </g>
+  </g>
+</svg>

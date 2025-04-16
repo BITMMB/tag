@@ -1,0 +1,44 @@
+.container {
+  padding: 0 16px;
+  background-color: #822486;
+
+}
+
+.tag {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  height: 65px;
+  align-items: center;
+}
+
+.item {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.isActive {
+  color: green
+}
+
+.isNotActive {
+  color: red
+}
+
+.secret {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.icon {
+  color: white;
+  font-size: 20px
+}
+
+.table {
+  margin-bottom: 16px;
+
+}

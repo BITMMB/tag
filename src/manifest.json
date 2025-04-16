@@ -1,0 +1,63 @@
+{
+  "manifest_version": 3,
+  "name": "Tag Tool",
+  "description": "Galaksion chrome extension for advertising tags",
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.bundle.js"
+  },
+  "permissions": [
+    "contextMenus",
+    "storage",
+    "debugger",
+    "webRequest",
+    "declarativeNetRequest",
+    "scripting",
+    "tabs",
+    "scripting",
+    "activeTab",
+    "webNavigation",
+    "<all_urls>"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon-34.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*",
+        "<all_urls>"
+      ],
+      "js": [
+        "contentScript.bundle.js"
+      ],
+      "run_at": "document_start",
+      "css": [
+        "content.styles.css"
+      ]
+    }
+  ],
+  "devtools_page": "devtools.html",
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "pages/background/inject.js",
+        "content.styles.css",
+        "icon-128.png",
+        "icon-34.png"
+      ],
+      "matches": []
+    }
+  ]
+}
